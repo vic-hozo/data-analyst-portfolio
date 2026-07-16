@@ -1,2 +1,11 @@
-# data-analyst-portfolio
-Data Analyst portfolio showcasing end-to-end analytics projects using Excel, SQL, and Tableau.
+# Data Analyst Portfolio
+
+Welcome! This repository contains my hands-on data analytics projects using Excel, SQL, and Tableau.
+
+## Projects
+
+| Project | Tools | Skills |
+|---------|-------|--------|
+| IT Service Desk Dashboard | Excel | Data Cleaning, Pivot Tables, Dashboard, KPI Reporting |
+| Sales Data Analysis *(Coming Soon)* | SQL | Joins, CTEs, Window Functions |
+| Sales Performance Dashboard *(Coming Soon)* | Tableau | Dashboard Design, Interactive Visualizations |
