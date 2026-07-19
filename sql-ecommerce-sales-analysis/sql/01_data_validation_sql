@@ -1,0 +1,8 @@
+-- ==========================================
+-- 01_data_validation.sql
+-- ==========================================
+
+-- Total rows
+SELECT 
+	COUNT(*) as  total_rows
+FROM orders;
