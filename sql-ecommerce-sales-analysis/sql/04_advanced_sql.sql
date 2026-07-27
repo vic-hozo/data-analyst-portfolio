@@ -58,4 +58,56 @@ FROM
 -- Only display customers ranked 1st, 2nd, or 3rd
 WHERE sales_rank <= 3;
 
+-- CTE, CROSS JOIN, Aggregate
+-- Above-Average Customers
+-- Purpose: Identified customers whose total sales exceeded the average customer spending, helping highlight high-value customers for targeted retention and marketing strategies.
 
+
+WITH total_per_customer  as (
+	-- Calculate the  total sales for each customer
+	SELECT customer_name,
+	ROUND(SUM(sales),2) total_sales
+	FROM orders
+	GROUP BY customer_name
+	) ,
+	-- Calculate the total_average of the 
+ total_avg as (
+	SELECT
+	ROUND(AVG(total_sales),2) as total_average
+	FROM total_per_customer
+	)
+	
+SELECT 
+	tpc.customer_name,
+	tpc.total_sales
+	FROM total_per_customer as tpc
+	CROSS JOIN total_avg as tag 
+	WHERE tpc.total_sales > tag.total_average
+
+
+-- CTE
+-- Monthly Sales Trend
+-- Purpose: Analyzed monthly sales performance over time to identify changes and patterns in sales activity.
+
+WITH monthly_sales as (
+    -- Calculate total sales for each month
+    SELECT
+        substr(order_date, -4) || '-' ||
+        printf(
+            '%02d',
+            CAST(
+                substr(order_date, 1, instr(order_date, '/') - 1)
+                as INTEGER
+            )
+        ) as year_month,
+        ROUND(SUM(sales), 2) as total_sales
+    FROM orders
+    GROUP BY year_month
+)
+
+-- Display the monthly sales trend
+SELECT
+    year_month,
+    total_sales
+FROM monthly_sales
+ORDER BY year_month;
