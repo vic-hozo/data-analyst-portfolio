@@ -1,41 +1,27 @@
 # Superstore Sales & Profit Dashboard
 
-## 📊 Project Overview
+## Project Overview
 
-An interactive Tableau dashboard analyzing sales and profitability performance 
-across products, categories, regions, and customer segments.
+An interactive Tableau dashboard analyzing sales and profit performance using the Superstore dataset.
 
-## 🎯 Objectives
+## Tools Used
 
-- Analyze sales and profit trends over time
-- Identify top-performing products and categories
-- Compare regional sales and profitability
-- Identify products with high sales but low profitability
+* Tableau Public
+* Excel / CSV
 
-## 🛠️ Tools Used
+## Dashboard Highlights
 
-- Tableau Public
-- Excel / CSV
+* Total Sales, Profit, Orders, and Profit Margin
+* Sales & Profit Trends
+* Sales by Category
+* Profit by Sub-Category
+* Regional Performance
+* Top 10 Products
+* Sales vs. Profit Analysis
 
-## 📈 Dashboard
+## Key Insights
 
-The dashboard includes:
-
-- Total Sales
-- Total Profit
-- Total Orders
-- Profit Margin
-- Sales & Profit Trends
-- Sales by Category
-- Profit by Sub-Category
-- Regional Performance
-- Top 10 Products
-- Sales vs. Profit Analysis
-
-## 🔍 Key Insights
-
--
-- 
-- 
-
-## 🔗 Tableau Public
+* Technology generated the highest sales among the three major categories.
+* The West region generated strong overall sales and profitability, followed by the East region.
+* Sales and profit generally followed a similar upward trend over time, with noticeable increases toward the later months of the year.
+* Higher sales did not always result in higher profit, highlighting the importance of monitoring profitability alongside revenue.
