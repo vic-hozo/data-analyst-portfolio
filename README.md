@@ -8,4 +8,4 @@ Welcome! This repository contains my hands-on data analytics projects using Exce
 |---------|-------|--------|
 | IT Service Desk Dashboard | Excel | Data Cleaning, Pivot Tables, Dashboard, KPI Reporting |
 | Sales Data Analysis | SQL | Joins, CTEs, Window Functions |
-| Sales Performance Dashboard | Tableau | Dashboard Design, Interactive Visualizations |
+| Superstore Sales & Profit Dashboard | Tableau | Dashboard Design, Interactive Visualizations |
