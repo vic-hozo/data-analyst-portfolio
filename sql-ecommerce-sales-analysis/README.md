@@ -27,14 +27,9 @@ screenshots/
 README.md
 ```
 
-## Project Status
-🚧 Work in Progress
-
 Completed:
-- ✅ Data Validation
-- ✅ Data Cleaning
-- ✅ Exploratory Analysis
-- ✅ Business Questions
-
-In Progress:
-- ⏳ Advanced SQL
+-  Data Validation
+-  Data Cleaning
+-  Exploratory Analysis
+-  Business Questions
+- Advanced SQL
