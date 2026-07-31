@@ -15,7 +15,7 @@ This project analyzes an e-commerce sales dataset using SQL to answer business q
 - CASE Statements
 - Common Table Expressions (CTEs)
 - Window Functions
-- RANK() / DENSE_RANK()
+- RANK()
 - Running Totals
 
 ## Project Structure
