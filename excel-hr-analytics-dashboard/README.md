@@ -1,4 +1,4 @@
-# IBM HR Analytics Employee Attrition Dashboard
+# Employee Attrition Analysis Dashboard
 
 ## Project Overview
 
