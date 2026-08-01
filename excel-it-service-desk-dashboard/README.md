@@ -1,5 +1,6 @@
 # IT Service Desk Performance Dashboard (Excel)
 
+## Project Overview
 An interactive Excel dashboard built using a simulated IT Service Desk dataset. This project demonstrates data cleaning, Pivot Tables, Pivot Charts, KPI reporting, and interactive slicers to analyze ticket performance and SLA compliance.
 
 ## Skills
