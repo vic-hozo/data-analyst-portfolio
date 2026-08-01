@@ -1,6 +1,6 @@
 # SQL E-Commerce Sales Analysis
 
-## Overview
+## Project Overview
 This project analyzes an e-commerce sales dataset using SQL to answer business questions and demonstrate data analysis skills.
 
 ## Dataset
