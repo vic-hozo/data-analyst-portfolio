@@ -6,7 +6,7 @@ An interactive Tableau dashboard analyzing sales and profit performance using th
 
 ## Tools Used
 
-* Tableau Public
+* Tableau Desktop
 * Excel / CSV
 
 ## Dashboard Highlights
