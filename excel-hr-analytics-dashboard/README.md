@@ -4,11 +4,10 @@
 
 An Excel-based HR analytics project analyzing employee attrition and workforce data. The dashboard provides insights into employee turnover, departments, job roles, compensation, overtime, and other workforce factors.
 
-## Tools & Skills
+## Skills
 
-* Microsoft Excel
 * Data Cleaning
-* PivotTables & PivotCharts
+* Pivot Tables & Pivot Charts
 * XLOOKUP
 * SUMIFS & COUNTIFS
 * UNIQUE, SORT & FILTER
