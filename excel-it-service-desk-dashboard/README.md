@@ -9,7 +9,7 @@ An interactive Excel dashboard built using a simulated IT Service Desk dataset. 
 - Pivot Tables
 - Pivot Charts
 - Excel Formulas
-- Dashboard Design
+- Dashboard Development
 - KPI Reporting
 
 ## Dashboard Preview
