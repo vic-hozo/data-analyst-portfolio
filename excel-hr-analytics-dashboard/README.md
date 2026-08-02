@@ -24,4 +24,4 @@ An Excel-based HR analytics project analyzing employee attrition and workforce d
 * Employee job levels and years at company
 
 ## Dashboard Preview
-
+![HR Analytics Dashboard](dashboard.png)
